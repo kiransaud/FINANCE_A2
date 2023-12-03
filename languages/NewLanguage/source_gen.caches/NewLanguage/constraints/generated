@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="bl76hkmrv0g6cknhbiwjuvn4oub9ihm">
+  <files names="ATM_Constraints.java:Account_Constraints.java:Card_Constraints.java:ConstraintsAspectDescriptor.java:Customer_Constraints.java:FinancialInstitution_Constraints.java:ServiceOffered_Constraints.java" />
+</product>
+

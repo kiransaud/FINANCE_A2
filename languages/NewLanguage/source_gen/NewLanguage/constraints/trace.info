@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,39,0" name="NewLanguage.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:06f31464-a3b9-475c-942a-e516b15e210a(NewLanguage.constraints)/7805689172541270251">
+    <file name="Account_Constraints.java">
+      <node id="7805689172541270251" at="25,32,26,31" concept="9" />
+      <node id="7805689172541270318" at="30,62,31,63" concept="9" />
+      <node id="7805689172541270318" at="34,109,35,100" concept="4" />
+      <node id="7805689172541270318" at="36,53,37,152" concept="1" />
+      <node id="7805689172541270318" at="38,7,39,20" concept="5" />
+      <node id="7805689172541280864" at="42,30,43,21" concept="5" />
+      <node id="7805689172541281128" at="44,7,45,18" concept="5" />
+      <node id="7805689172541288267" at="49,64,50,65" concept="9" />
+      <node id="7805689172541288267" at="53,109,54,99" concept="4" />
+      <node id="7805689172541288267" at="55,53,56,152" concept="1" />
+      <node id="7805689172541288267" at="57,7,58,20" concept="5" />
+      <node id="7805689172541321385" at="62,40,63,73" concept="5" />
+      <node id="7805689172541329883" at="66,42,67,54" concept="5" />
+      <node id="7805689172541336571" at="69,9,70,48" concept="6" />
+      <node id="7805689172541270251" at="74,84,75,119" concept="4" />
+      <node id="7805689172541270318" at="75,119,76,67" concept="1" />
+      <node id="7805689172541288267" at="76,67,77,71" concept="1" />
+      <node id="7805689172541270251" at="77,71,78,22" concept="5" />
+      <node id="7805689172541270251" at="82,0,83,0" concept="7" trace="Account$73" />
+      <node id="7805689172541270251" at="86,0,87,0" concept="7" trace="balance$LYhh" />
+      <node id="7805689172541270251" at="87,0,88,0" concept="7" trace="accountID$LXNf" />
+      <node id="7805689172541270251" at="25,0,28,0" concept="0" trace="Account_Constraints#()V" />
+      <node id="7805689172541270318" at="30,0,33,0" concept="0" trace="Balance_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="7805689172541270318" at="35,100,38,7" concept="2" />
+      <node id="7805689172541270967" at="41,82,44,7" concept="2" />
+      <node id="7805689172541288267" at="49,0,52,0" concept="0" trace="AccountID_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="7805689172541288267" at="54,99,57,7" concept="2" />
+      <node id="7805689172541320679" at="62,0,65,0" concept="3" trace="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7805689172541329457" at="66,0,69,0" concept="3" trace="accept#(Ljava/lang/String;)Z" />
+      <node id="7805689172541270318" at="41,0,47,0" concept="8" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;I)Z" />
+      <node id="7805689172541270251" at="73,0,80,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="7805689172541270318" at="33,0,41,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <node id="7805689172541288267" at="52,0,60,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <node id="7805689172541297327" at="60,91,69,9" concept="5" />
+      <node id="7805689172541288267" at="60,0,72,0" concept="8" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <scope id="7805689172541270251" at="25,32,26,31" />
+      <scope id="7805689172541270318" at="30,62,31,63" />
+      <scope id="7805689172541270318" at="36,53,37,152" />
+      <scope id="7805689172541270969" at="42,30,43,21" />
+      <scope id="7805689172541288267" at="49,64,50,65" />
+      <scope id="7805689172541288267" at="55,53,56,152" />
+      <scope id="7805689172541320680" at="62,40,63,73" />
+      <scope id="7805689172541329458" at="66,42,67,54" />
+      <scope id="7805689172541270251" at="25,0,28,0" />
+      <scope id="7805689172541270318" at="30,0,33,0">
+        <var name="container" id="7805689172541270318" />
+      </scope>
+      <scope id="7805689172541288267" at="49,0,52,0">
+        <var name="container" id="7805689172541288267" />
+      </scope>
+      <scope id="7805689172541320679" at="62,0,65,0">
+        <var name="it" id="7805689172541320679" />
+      </scope>
+      <scope id="7805689172541329457" at="66,0,69,0">
+        <var name="it" id="7805689172541329457" />
+      </scope>
+      <scope id="7805689172541270617" at="41,82,45,18" />
+      <scope id="7805689172541270251" at="74,84,78,22">
+        <var name="properties" id="7805689172541270251" />
+      </scope>
+      <scope id="7805689172541270318" at="34,109,39,20">
+        <var name="result" id="7805689172541270318" />
+      </scope>
+      <scope id="7805689172541288267" at="53,109,58,20">
+        <var name="result" id="7805689172541288267" />
+      </scope>
+      <scope id="7805689172541270318" at="41,0,47,0">
+        <var name="node" id="7805689172541270318" />
+        <var name="propertyValue" id="7805689172541270318" />
+      </scope>
+      <scope id="7805689172541270251" at="73,0,80,0" />
+      <scope id="7805689172541270318" at="33,0,41,0">
+        <var name="checkingNodeContext" id="7805689172541270318" />
+        <var name="node" id="7805689172541270318" />
+        <var name="propertyValue" id="7805689172541270318" />
+      </scope>
+      <scope id="7805689172541288267" at="52,0,60,0">
+        <var name="checkingNodeContext" id="7805689172541288267" />
+        <var name="node" id="7805689172541288267" />
+        <var name="propertyValue" id="7805689172541288267" />
+      </scope>
+      <scope id="7805689172541288393" at="60,91,70,48" />
+      <scope id="7805689172541288267" at="60,0,72,0">
+        <var name="node" id="7805689172541288267" />
+        <var name="propertyValue" id="7805689172541288267" />
+      </scope>
+      <unit id="7805689172541270251" at="81,0,84,0" name="NewLanguage.constraints.Account_Constraints$CONCEPTS" />
+      <unit id="7805689172541320679" at="61,139,65,7" name="NewLanguage.constraints.Account_Constraints$AccountID_Property$1" />
+      <unit id="7805689172541329457" at="65,17,69,7" name="NewLanguage.constraints.Account_Constraints$AccountID_Property$2" />
+      <unit id="7805689172541270251" at="85,0,89,0" name="NewLanguage.constraints.Account_Constraints$PROPS" />
+      <unit id="7805689172541270318" at="29,0,48,0" name="NewLanguage.constraints.Account_Constraints$Balance_Property" />
+      <unit id="7805689172541288267" at="48,0,73,0" name="NewLanguage.constraints.Account_Constraints$AccountID_Property" />
+      <unit id="7805689172541270251" at="24,0,90,0" name="NewLanguage.constraints.Account_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:06f31464-a3b9-475c-942a-e516b15e210a(NewLanguage.constraints)/7805689172541349843">
+    <file name="ATM_Constraints.java">
+      <node id="7805689172541349843" at="25,28,26,27" concept="9" />
+      <node id="7805689172544975009" at="30,61,31,62" concept="9" />
+      <node id="7805689172544975009" at="34,109,35,100" concept="4" />
+      <node id="7805689172544975009" at="36,53,37,152" concept="1" />
+      <node id="7805689172544975009" at="38,7,39,20" concept="5" />
+      <node id="7805689172544975554" at="41,82,42,31" concept="5" />
+      <node id="7805689172545002009" at="46,60,47,61" concept="9" />
+      <node id="7805689172545002009" at="50,109,51,99" concept="4" />
+      <node id="7805689172545002009" at="52,53,53,152" concept="1" />
+      <node id="7805689172545002009" at="54,7,55,20" concept="5" />
+      <node id="7805689172545040001" at="59,40,60,69" concept="5" />
+      <node id="7805689172545058326" at="63,42,64,54" concept="5" />
+      <node id="7805689172541349843" at="70,84,71,119" concept="4" />
+      <node id="7805689172544975009" at="71,119,72,65" concept="1" />
+      <node id="7805689172545002009" at="72,65,73,63" concept="1" />
+      <node id="7805689172541349843" at="73,63,74,22" concept="5" />
+      <node id="7805689172541349843" at="78,0,79,0" concept="7" trace="ATM$n2" />
+      <node id="7805689172541349843" at="82,0,83,0" concept="7" trace="amount$S0tX" />
+      <node id="7805689172541349843" at="83,0,84,0" concept="7" trace="atmID$PxCo" />
+      <node id="7805689172541349843" at="25,0,28,0" concept="0" trace="ATM_Constraints#()V" />
+      <node id="7805689172544975009" at="30,0,33,0" concept="0" trace="Amount_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="7805689172544975009" at="35,100,38,7" concept="2" />
+      <node id="7805689172544975009" at="41,0,44,0" concept="8" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;I)Z" />
+      <node id="7805689172545002009" at="46,0,49,0" concept="0" trace="AtmID_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="7805689172545002009" at="51,99,54,7" concept="2" />
+      <node id="7805689172545039568" at="59,0,62,0" concept="3" trace="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7805689172545055806" at="63,0,66,0" concept="3" trace="accept#(Ljava/lang/String;)Z" />
+      <node id="7805689172541349843" at="69,0,76,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="7805689172544975009" at="33,0,41,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <node id="7805689172545002009" at="49,0,57,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <node id="7805689172545002512" at="57,91,66,9" concept="5" />
+      <node id="7805689172545002009" at="57,0,68,0" concept="8" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <scope id="7805689172541349843" at="25,28,26,27" />
+      <scope id="7805689172544975009" at="30,61,31,62" />
+      <scope id="7805689172544975009" at="36,53,37,152" />
+      <scope id="7805689172544975129" at="41,82,42,31" />
+      <scope id="7805689172545002009" at="46,60,47,61" />
+      <scope id="7805689172545002009" at="52,53,53,152" />
+      <scope id="7805689172545039569" at="59,40,60,69" />
+      <scope id="7805689172545055807" at="63,42,64,54" />
+      <scope id="7805689172541349843" at="25,0,28,0" />
+      <scope id="7805689172544975009" at="30,0,33,0">
+        <var name="container" id="7805689172544975009" />
+      </scope>
+      <scope id="7805689172544975009" at="41,0,44,0">
+        <var name="node" id="7805689172544975009" />
+        <var name="propertyValue" id="7805689172544975009" />
+      </scope>
+      <scope id="7805689172545002009" at="46,0,49,0">
+        <var name="container" id="7805689172545002009" />
+      </scope>
+      <scope id="7805689172545039568" at="59,0,62,0">
+        <var name="it" id="7805689172545039568" />
+      </scope>
+      <scope id="7805689172545055806" at="63,0,66,0">
+        <var name="it" id="7805689172545055806" />
+      </scope>
+      <scope id="7805689172541349843" at="70,84,74,22">
+        <var name="properties" id="7805689172541349843" />
+      </scope>
+      <scope id="7805689172544975009" at="34,109,39,20">
+        <var name="result" id="7805689172544975009" />
+      </scope>
+      <scope id="7805689172545002009" at="50,109,55,20">
+        <var name="result" id="7805689172545002009" />
+      </scope>
+      <scope id="7805689172541349843" at="69,0,76,0" />
+      <scope id="7805689172544975009" at="33,0,41,0">
+        <var name="checkingNodeContext" id="7805689172544975009" />
+        <var name="node" id="7805689172544975009" />
+        <var name="propertyValue" id="7805689172544975009" />
+      </scope>
+      <scope id="7805689172545002009" at="49,0,57,0">
+        <var name="checkingNodeContext" id="7805689172545002009" />
+        <var name="node" id="7805689172545002009" />
+        <var name="propertyValue" id="7805689172545002009" />
+      </scope>
+      <scope id="7805689172545002097" at="57,91,66,9" />
+      <scope id="7805689172545002009" at="57,0,68,0">
+        <var name="node" id="7805689172545002009" />
+        <var name="propertyValue" id="7805689172545002009" />
+      </scope>
+      <unit id="7805689172541349843" at="77,0,80,0" name="NewLanguage.constraints.ATM_Constraints$CONCEPTS" />
+      <unit id="7805689172545039568" at="58,135,62,7" name="NewLanguage.constraints.ATM_Constraints$AtmID_Property$1" />
+      <unit id="7805689172545055806" at="62,17,66,7" name="NewLanguage.constraints.ATM_Constraints$AtmID_Property$2" />
+      <unit id="7805689172541349843" at="81,0,85,0" name="NewLanguage.constraints.ATM_Constraints$PROPS" />
+      <unit id="7805689172544975009" at="29,0,45,0" name="NewLanguage.constraints.ATM_Constraints$Amount_Property" />
+      <unit id="7805689172545002009" at="45,0,69,0" name="NewLanguage.constraints.ATM_Constraints$AtmID_Property" />
+      <unit id="7805689172541349843" at="24,0,86,0" name="NewLanguage.constraints.ATM_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:06f31464-a3b9-475c-942a-e516b15e210a(NewLanguage.constraints)/7805689172541546889">
+    <file name="Customer_Constraints.java">
+      <node id="7805689172541546889" at="25,33,26,32" concept="9" />
+      <node id="7805689172545167703" at="30,65,31,66" concept="9" />
+      <node id="7805689172545167703" at="34,109,35,99" concept="4" />
+      <node id="7805689172545167703" at="36,53,37,152" concept="1" />
+      <node id="7805689172545167703" at="38,7,39,20" concept="5" />
+      <node id="7805689172545190057" at="43,40,44,74" concept="5" />
+      <node id="7805689172545198201" at="47,42,48,54" concept="5" />
+      <node id="7805689172541546889" at="54,84,55,119" concept="4" />
+      <node id="7805689172545167703" at="55,119,56,73" concept="1" />
+      <node id="7805689172541546889" at="56,73,57,22" concept="5" />
+      <node id="7805689172541546889" at="61,0,62,0" concept="7" trace="Customer$mz" />
+      <node id="7805689172541546889" at="65,0,66,0" concept="7" trace="customerId$PpDn" />
+      <node id="7805689172541546889" at="25,0,28,0" concept="0" trace="Customer_Constraints#()V" />
+      <node id="7805689172545167703" at="30,0,33,0" concept="0" trace="CustomerId_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="7805689172545167703" at="35,99,38,7" concept="2" />
+      <node id="7805689172545189642" at="43,0,46,0" concept="3" trace="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7805689172545197769" at="47,0,50,0" concept="3" trace="accept#(Ljava/lang/String;)Z" />
+      <node id="7805689172541546889" at="53,0,59,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="7805689172545167703" at="33,0,41,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <node id="7805689172545168320" at="41,91,50,9" concept="5" />
+      <node id="7805689172545167703" at="41,0,52,0" concept="8" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <scope id="7805689172541546889" at="25,33,26,32" />
+      <scope id="7805689172545167703" at="30,65,31,66" />
+      <scope id="7805689172545167703" at="36,53,37,152" />
+      <scope id="7805689172545189643" at="43,40,44,74" />
+      <scope id="7805689172545197770" at="47,42,48,54" />
+      <scope id="7805689172541546889" at="25,0,28,0" />
+      <scope id="7805689172545167703" at="30,0,33,0">
+        <var name="container" id="7805689172545167703" />
+      </scope>
+      <scope id="7805689172545189642" at="43,0,46,0">
+        <var name="it" id="7805689172545189642" />
+      </scope>
+      <scope id="7805689172545197769" at="47,0,50,0">
+        <var name="it" id="7805689172545197769" />
+      </scope>
+      <scope id="7805689172541546889" at="54,84,57,22">
+        <var name="properties" id="7805689172541546889" />
+      </scope>
+      <scope id="7805689172545167703" at="34,109,39,20">
+        <var name="result" id="7805689172545167703" />
+      </scope>
+      <scope id="7805689172541546889" at="53,0,59,0" />
+      <scope id="7805689172545167703" at="33,0,41,0">
+        <var name="checkingNodeContext" id="7805689172545167703" />
+        <var name="node" id="7805689172545167703" />
+        <var name="propertyValue" id="7805689172545167703" />
+      </scope>
+      <scope id="7805689172545167940" at="41,91,50,9" />
+      <scope id="7805689172545167703" at="41,0,52,0">
+        <var name="node" id="7805689172545167703" />
+        <var name="propertyValue" id="7805689172545167703" />
+      </scope>
+      <unit id="7805689172541546889" at="60,0,63,0" name="NewLanguage.constraints.Customer_Constraints$CONCEPTS" />
+      <unit id="7805689172541546889" at="64,0,67,0" name="NewLanguage.constraints.Customer_Constraints$PROPS" />
+      <unit id="7805689172545189642" at="42,140,46,7" name="NewLanguage.constraints.Customer_Constraints$CustomerId_Property$1" />
+      <unit id="7805689172545197769" at="46,17,50,7" name="NewLanguage.constraints.Customer_Constraints$CustomerId_Property$2" />
+      <unit id="7805689172545167703" at="29,0,53,0" name="NewLanguage.constraints.Customer_Constraints$CustomerId_Property" />
+      <unit id="7805689172541546889" at="24,0,68,0" name="NewLanguage.constraints.Customer_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:06f31464-a3b9-475c-942a-e516b15e210a(NewLanguage.constraints)/7805689172541563043">
+    <file name="FinancialInstitution_Constraints.java">
+      <node id="7805689172541563043" at="20,45,21,44" concept="9" />
+      <node id="7805689172541563044" at="25,66,26,67" concept="9" />
+      <node id="7805689172541563044" at="29,109,30,100" concept="4" />
+      <node id="7805689172541563044" at="31,53,32,152" concept="1" />
+      <node id="7805689172541563044" at="33,7,34,20" concept="5" />
+      <node id="7805689172545242322" at="36,82,37,31" concept="5" />
+      <node id="7805689172541563043" at="41,84,42,119" concept="4" />
+      <node id="7805689172541563044" at="42,119,43,75" concept="1" />
+      <node id="7805689172541563043" at="43,75,44,22" concept="5" />
+      <node id="7805689172541563043" at="48,0,49,0" concept="7" trace="FinancialInstitution$UW" />
+      <node id="7805689172541563043" at="52,0,53,0" concept="7" trace="totalAssets$GXCU" />
+      <node id="7805689172541563043" at="20,0,23,0" concept="0" trace="FinancialInstitution_Constraints#()V" />
+      <node id="7805689172541563044" at="25,0,28,0" concept="0" trace="TotalAssets_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="7805689172541563044" at="30,100,33,7" concept="2" />
+      <node id="7805689172541563044" at="36,0,39,0" concept="8" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;I)Z" />
+      <node id="7805689172541563043" at="40,0,46,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="7805689172541563044" at="28,0,36,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="7805689172541563043" at="20,45,21,44" />
+      <scope id="7805689172541563044" at="25,66,26,67" />
+      <scope id="7805689172541563044" at="31,53,32,152" />
+      <scope id="7805689172545241930" at="36,82,37,31" />
+      <scope id="7805689172541563043" at="20,0,23,0" />
+      <scope id="7805689172541563044" at="25,0,28,0">
+        <var name="container" id="7805689172541563044" />
+      </scope>
+      <scope id="7805689172541563044" at="36,0,39,0">
+        <var name="node" id="7805689172541563044" />
+        <var name="propertyValue" id="7805689172541563044" />
+      </scope>
+      <scope id="7805689172541563043" at="41,84,44,22">
+        <var name="properties" id="7805689172541563043" />
+      </scope>
+      <scope id="7805689172541563044" at="29,109,34,20">
+        <var name="result" id="7805689172541563044" />
+      </scope>
+      <scope id="7805689172541563043" at="40,0,46,0" />
+      <scope id="7805689172541563044" at="28,0,36,0">
+        <var name="checkingNodeContext" id="7805689172541563044" />
+        <var name="node" id="7805689172541563044" />
+        <var name="propertyValue" id="7805689172541563044" />
+      </scope>
+      <unit id="7805689172541563043" at="47,0,50,0" name="NewLanguage.constraints.FinancialInstitution_Constraints$CONCEPTS" />
+      <unit id="7805689172541563043" at="51,0,54,0" name="NewLanguage.constraints.FinancialInstitution_Constraints$PROPS" />
+      <unit id="7805689172541563044" at="24,0,40,0" name="NewLanguage.constraints.FinancialInstitution_Constraints$TotalAssets_Property" />
+      <unit id="7805689172541563043" at="19,0,55,0" name="NewLanguage.constraints.FinancialInstitution_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:06f31464-a3b9-475c-942a-e516b15e210a(NewLanguage.constraints)/7805689172545087587">
+    <file name="Card_Constraints.java">
+      <node id="7805689172545087587" at="25,29,26,28" concept="9" />
+      <node id="7805689172545087588" at="30,61,31,62" concept="9" />
+      <node id="7805689172545087588" at="34,109,35,99" concept="4" />
+      <node id="7805689172545087588" at="36,53,37,152" concept="1" />
+      <node id="7805689172545087588" at="38,7,39,20" concept="5" />
+      <node id="7805689172545110115" at="43,40,44,70" concept="5" />
+      <node id="7805689172545120741" at="47,42,48,54" concept="5" />
+      <node id="7805689172545087587" at="54,84,55,119" concept="4" />
+      <node id="7805689172545087588" at="55,119,56,65" concept="1" />
+      <node id="7805689172545087587" at="56,65,57,22" concept="5" />
+      <node id="7805689172545087587" at="61,0,62,0" concept="7" trace="Card$nx" />
+      <node id="7805689172545087587" at="65,0,66,0" concept="7" trace="cardID$Sm3S" />
+      <node id="7805689172545087587" at="25,0,28,0" concept="0" trace="Card_Constraints#()V" />
+      <node id="7805689172545087588" at="30,0,33,0" concept="0" trace="CardID_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="7805689172545087588" at="35,99,38,7" concept="2" />
+      <node id="7805689172545109723" at="43,0,46,0" concept="3" trace="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7805689172545120309" at="47,0,50,0" concept="3" trace="accept#(Ljava/lang/String;)Z" />
+      <node id="7805689172545087587" at="53,0,59,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="7805689172545087588" at="33,0,41,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <node id="7805689172545088088" at="41,91,50,9" concept="5" />
+      <node id="7805689172545087588" at="41,0,52,0" concept="8" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <scope id="7805689172545087587" at="25,29,26,28" />
+      <scope id="7805689172545087588" at="30,61,31,62" />
+      <scope id="7805689172545087588" at="36,53,37,152" />
+      <scope id="7805689172545109724" at="43,40,44,70" />
+      <scope id="7805689172545120310" at="47,42,48,54" />
+      <scope id="7805689172545087587" at="25,0,28,0" />
+      <scope id="7805689172545087588" at="30,0,33,0">
+        <var name="container" id="7805689172545087588" />
+      </scope>
+      <scope id="7805689172545109723" at="43,0,46,0">
+        <var name="it" id="7805689172545109723" />
+      </scope>
+      <scope id="7805689172545120309" at="47,0,50,0">
+        <var name="it" id="7805689172545120309" />
+      </scope>
+      <scope id="7805689172545087587" at="54,84,57,22">
+        <var name="properties" id="7805689172545087587" />
+      </scope>
+      <scope id="7805689172545087588" at="34,109,39,20">
+        <var name="result" id="7805689172545087588" />
+      </scope>
+      <scope id="7805689172545087587" at="53,0,59,0" />
+      <scope id="7805689172545087588" at="33,0,41,0">
+        <var name="checkingNodeContext" id="7805689172545087588" />
+        <var name="node" id="7805689172545087588" />
+        <var name="propertyValue" id="7805689172545087588" />
+      </scope>
+      <scope id="7805689172545087708" at="41,91,50,9" />
+      <scope id="7805689172545087588" at="41,0,52,0">
+        <var name="node" id="7805689172545087588" />
+        <var name="propertyValue" id="7805689172545087588" />
+      </scope>
+      <unit id="7805689172545087587" at="60,0,63,0" name="NewLanguage.constraints.Card_Constraints$CONCEPTS" />
+      <unit id="7805689172545087587" at="64,0,67,0" name="NewLanguage.constraints.Card_Constraints$PROPS" />
+      <unit id="7805689172545109723" at="42,136,46,7" name="NewLanguage.constraints.Card_Constraints$CardID_Property$1" />
+      <unit id="7805689172545120309" at="46,17,50,7" name="NewLanguage.constraints.Card_Constraints$CardID_Property$2" />
+      <unit id="7805689172545087588" at="29,0,53,0" name="NewLanguage.constraints.Card_Constraints$CardID_Property" />
+      <unit id="7805689172545087587" at="24,0,68,0" name="NewLanguage.constraints.Card_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:06f31464-a3b9-475c-942a-e516b15e210a(NewLanguage.constraints)/7805689172548684263">
+    <file name="ServiceOffered_Constraints.java">
+      <node id="7805689172548684263" at="10,39,11,38" concept="9" />
+      <node id="7805689172548684263" at="15,0,16,0" concept="7" trace="ServiceOffered$65" />
+      <node id="7805689172548684263" at="10,0,13,0" concept="0" trace="ServiceOffered_Constraints#()V" />
+      <scope id="7805689172548684263" at="10,39,11,38" />
+      <scope id="7805689172548684263" at="10,0,13,0" />
+      <unit id="7805689172548684263" at="14,0,17,0" name="NewLanguage.constraints.ServiceOffered_Constraints$CONCEPTS" />
+      <unit id="7805689172548684263" at="9,0,18,0" name="NewLanguage.constraints.ServiceOffered_Constraints" />
+    </file>
+  </root>
+</debug-info>
+
